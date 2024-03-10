@@ -1,0 +1,131 @@
+   
+.content{
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+
+}
+.card{
+  border-radius: 10px;
+   background-color: #fff;
+   width: 21.20em;
+   box-shadow: 0 5px 25px rgba(1, 1, 1, 15%); 
+   padding: 25px;
+   margin: 15px;
+   transition : 0.7s ease ; /* pour un effet avec ralentie du hover */
+}
+.card:hover{
+    background-color:  rgba(1, 1, 1, 0.2%);
+    transform: scale(1.1);
+    
+}
+.projects .content {
+    display: flex;
+    flex-direction: row; /* Pour aligner les éléments de manière verticale */
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;  
+  
+  
+  }
+  /*.projects .content{
+    width: 100%;
+    flex-wrap: wrap;  
+  
+  }*/
+  .projects .card{
+    min-height: 14em;
+  
+  }
+  .projects .container-img{
+    width: 100%;
+    height: 165px;
+    display: flex;
+      aspect-ratio: 16 / 9;
+      overflow-x: auto;
+      scroll-snap-type: x mandatory;
+      scroll-behavior: smooth;
+      box-shadow: 0 1.5rem 3rem -0.75rem hsla(0, 0%, 0%, 0.25);
+      -ms-overflow-style: none; /* Hide scrollbar IE and Edge */
+      scrollbar-width: none; /* Hide scrollbar Firefox */
+  }
+  
+  .projects .container-img::-webkit-scrollbar {
+      display: none;
+  }
+  
+  .projects   img {
+      width: 100%;
+      height: 100%;
+      flex: 1 0 100%;
+      scroll-snap-align: start;
+    }
+  
+    
+  .projects .slider-nav {
+      display: flex;
+      column-gap: 1rem;
+      position: absolute;
+      bottom: 1.25rem;
+      left: 50%;
+      transform: translateX(-50%);
+      z-index: 1;
+  }
+  
+  .projects .slider-nav a {
+      width: 0.25rem;
+      height: 0.25rem;
+      border-radius: 50%;
+      background-color: #fff;
+      opacity: 0.75;
+      transition: opacity ease 250ms;
+    margin-top: -80px;
+  }
+  
+  .projects .slider-nav a:hover {
+      opacity: 1;
+  }
+  
+  .projects .info{
+    padding: 1em;
+    size: 0.5em;
+  }
+    
+ .projects  .card:hover img{
+  opacity: 0.9;
+  }
+  
+  .projects .info p{
+    font-size: 0.7em;
+    color: #1b1919;
+  }
+  
+  .projects .info  a{
+    padding-left: 0.5em;
+    size: 0.4em;
+  
+  }
+  
+  .projects .project-title{
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-top: 10px;
+    font-size: 0.8em;
+  }
+  
+  .projects .more-details{
+    text-decoration: none;
+    color :#3a6cf4 ;
+  }
+  .projects .more-details:hover{
+    color:#601cfc ;
+  }
+  
+  #Restaurant-Management{
+    font-size: 0.73em;
+  
+  }
+  

@@ -1,0 +1,28 @@
+
+.iconcontact {
+    color: #6495ED;
+    display: flex ;
+    justify-content: center;
+    font-size: 8em ;
+    margin-bottom: 20px;
+   
+}
+
+.Contact .content {
+    margin-top: 60px;
+    display:flex ;
+    align-items: center;
+    position: relative;
+    flex-wrap: wrap;
+}
+
+.info{
+    text-align: center;
+}
+.info h3{
+    color :#0d3c63  ;
+    font-size: 1.2em;
+    font-weight: 700;
+    
+}
+

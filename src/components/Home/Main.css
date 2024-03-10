@@ -1,0 +1,204 @@
+.video-background{
+    position: relative ;
+    width: 100%;
+    min-height:750px;   
+    background-position: center;
+    background-size: cover;
+}
+
+video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ajustez l'objet en fonction de vos besoins */
+
+  }
+
+  .presentation1{
+    display:flex ;
+    align-items: center;
+    position: relative;
+    flex-wrap: wrap;
+
+  }
+  .containersskillsmain{
+    min-height: 100vh;
+
+  }
+  .containerservices{
+    /*background-color: #162533;*/
+    width: 100%;
+    min-height: 70vh;
+    position: relative;
+}
+
+  .containerprojects{
+    position: relative;
+    width: 100%;
+    max-height: max-content;
+    /*background-color: red;*/
+
+  }
+
+  .presentation1 img{ 
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;   
+    margin-top: 80px;    
+    border-radius: 50%;
+    transition : all 0.4s ease ;
+
+
+  
+  }
+
+  .presentation1 img:hover{
+    transform: translateY(-0.5rem);
+  }
+
+  .hello{
+    position: relative;
+    width: 600px;
+    height: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    
+  }
+
+  .hello .h1main{
+    text-align: start;
+    margin-top: -30px;
+  }
+
+  .hello p{
+    color: black;
+    font-size: 3.5rem;
+    font-weight: 600;
+  }
+  .aboutMe{
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+  }
+
+
+.containercontact{
+  width: 100%;
+  min-height: 80vh;
+
+  position: relative;
+
+}
+
+.containerFooter{
+  position: relative;
+  width: 100%;
+  height: 80px;
+
+}
+
+  @media (max-width : 1100px){
+  
+  .hello{
+    width: 450px;
+    height: 400px;
+   
+  }
+
+  img{
+    width: 25rem;
+
+  }
+
+
+
+  
+  }
+
+  @media (max-width : 885px){
+
+        
+  .hello{
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+   
+  }
+
+    .hello p{
+      /*font-size: 40px;*/
+      font-size: 1.7rem;
+      padding-bottom: 0.5rem;
+    }
+
+    .h1main{
+      font-size: 1.3rem;
+
+
+    }
+  
+ 
+  
+  }
+
+  @media (max-width : 700px){
+    img{ 
+    width: 20rem;
+  
+    
+    }
+  
+    .hello{
+      display: flex;
+      text-align: center;
+      align-items: center;
+      justify-content: center;
+      margin-top: 1rem;
+      height: auto;
+
+    }
+
+  
+
+
+  }
+
+  
+  button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    outline: none;
+    cursor: pointer;
+    width: 150px;
+    height: 50px;
+    background-image: linear-gradient(to top, #D8D9DB 0%, #fff 80%, #FDFDFD 100%);
+    border-radius: 5px;
+    border: 1px solid #8F9092;
+    transition: all 0.2s ease;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: #606060;
+    text-shadow: 0 1px #fff;
+  }
+  
+  button:hover {
+    box-shadow: 0 4px 3px 1px #FCFCFC, 0 6px 8px #D6D7D9, 0 -4px 4px #CECFD1, 0 -6px 4px #FEFEFE, inset 0 0 3px 3px #CECFD1;
+  }
+  
+  button:active {
+    box-shadow: 0 4px 3px 1px #FCFCFC, 0 6px 8px #D6D7D9, 0 -4px 4px #CECFD1, 0 -6px 4px #FEFEFE, inset 0 0 5px 3px #999, inset 0 0 30px #aaa;
+  }
+  
+  button:focus {
+    box-shadow: 0 4px 3px 1px #FCFCFC, 0 6px 8px #D6D7D9, 0 -4px 4px #CECFD1, 0 -6px 4px #FEFEFE, inset 0 0 5px 3px #999, inset 0 0 30px #aaa;
+  }
+  
+  
+  

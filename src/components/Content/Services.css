@@ -1,0 +1,52 @@
+/*styles de la  deuxième partie de la page */
+.services{
+    padding-top: 10%;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    color: #3a6cf4;
+    font-size: 2.2em;
+    font-weight: 800;
+    margin-bottom: 70px;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.card{
+  border-radius: 10px;
+   background-color: #fff;
+   width: 21.20em;
+   box-shadow: 0 5px 25px rgba(1, 1, 1, 15%); 
+   padding: 25px;
+   margin: 15px;
+   transition : 0.7s ease ; /* pour un effet avec ralentie du hover */
+}
+.card:hover{
+    background-color:  rgba(1, 1, 1, 0.2%);
+    transform: scale(1.1);
+    
+}
+.info{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+
+}
+.info h3{
+    color :#2d5de0  ;
+    font-size: 1.2em;
+    font-weight: 700;
+    margin:10px
+}
+
+ .icon {
+    color: #2d5de0;
+    display: flex ;
+    justify-content: center;
+    font-size: 8em ;
+    margin-bottom: 20px;
+   
+}
