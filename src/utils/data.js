@@ -1,4 +1,4 @@
-import { faLaptop, faMobile ,faCode ,faScrewdriverWrench } from '@fortawesome/free-solid-svg-icons';
+import {faCode ,faScrewdriverWrench } from '@fortawesome/free-solid-svg-icons';
 
 export const SKILLS=[
     {

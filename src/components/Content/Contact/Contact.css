@@ -1,6 +1,5 @@
-
 .iconcontact {
-    color: #6495ED;
+    color: #21289d;
     display: flex ;
     justify-content: center;
     font-size: 8em ;
@@ -18,9 +17,9 @@
 
 .info{
     text-align: center;
+    color: #21289d;
 }
 .info h3{
-    color :#0d3c63  ;
     font-size: 1.2em;
     font-weight: 700;
     

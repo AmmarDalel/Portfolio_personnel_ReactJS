@@ -80,7 +80,7 @@
       background-color: #fff;
       opacity: 0.75;
       transition: opacity ease 250ms;
-    margin-top: -80px;
+      margin-top: -80px;
   }
   
   .projects .slider-nav a:hover {
@@ -93,12 +93,12 @@
   }
     
  .projects  .card:hover img{
-  opacity: 0.9;
+  opacity: 0.8;
   }
   
   .projects .info p{
     font-size: 0.7em;
-    color: #1b1919;
+    color: #21289d;
   }
   
   .projects .info  a{
@@ -118,10 +118,10 @@
   
   .projects .more-details{
     text-decoration: none;
-    color :#3a6cf4 ;
+    color :#4e9dde ;
   }
   .projects .more-details:hover{
-    color:#601cfc ;
+    color:#529edd ;
   }
   
   #Restaurant-Management{

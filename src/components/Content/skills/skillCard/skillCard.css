@@ -1,15 +1,20 @@
 .skills-card{
     border-radius: 0.65rem ;
-    border:  1.5px solid #6495ED;
+    border:  1.5px solid #21289d;
     position: relative ;
     text-align: center;
     padding:2.5rem ;
     cursor:pointer;
+    opacity: 0.75;
+    transition:all ease 250ms ;
 
 }
 .skills-card:hover{
-    background-color:#F6F6F6 ;
+    background: linear-gradient(90deg , #21289d -50% , #4a74c1 50%);
+
 }
+  
+
 
 .skill-icon{
     width: 4rem;
@@ -19,7 +24,7 @@
     justify-content: center; /*l'alignement horizantal*/
     background-color:white ;
     border-radius: 0.65rem;
-    border:1.5px solid #6495ED ;
+    border:1.5px solid #21289d ;
     position: absolute;
     top:-1rem ;
     left:-1rem ;
@@ -30,6 +35,10 @@
     width: 2.4rem;
     height: auto;
     object-fit: contain;
+}
+.skills-card span{
+    color: white;
+
 }
 
 @media (max-width : 1025px){

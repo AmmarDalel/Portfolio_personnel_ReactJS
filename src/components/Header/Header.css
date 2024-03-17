@@ -1,11 +1,14 @@
 .container-navbar1{
   display: none;
-  justify-content: center;
-  position:fixed;
-  z-index: 998;
-  background-color: white;
+ /* position:fixed;*/
+ position: relative;
+  justify-content: space-around;
+  /*z-index: 998;*/
   width: 100%;
-  
+  padding-left: 1rem;
+  background-color: transparent !important;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);  
  
 }
 .container-navbar2{
@@ -13,25 +16,53 @@
 
   justify-content: center;
 }
-.navbar-icon{
+.navbar-icon-contact-container{
+  display: flex;
+  justify-content: flex-end;
+  column-gap: 0.5rem;
+  margin-right: 2rem;
+}
+.navbar-icon , .navbar-icon-contact{
   display: none;
- margin-left: 2%;
  color: #0d3c63;
+}
+.navbar-icon-contact{
+
+  width: 22px;
+}
+.navbar-icon-contact:hover{
+  color:#1672bd
+
+
+}
+
+.navbar-icon-contact-container a {
+  width: max-content;
+  height: min-content;
+  justify-content: center;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 .navbar-icon:hover{
   color: #1672bd;
 }
+h2{
+  color: #21289d;
+}
+h2 span {
+  color: white;
+}
 .nav-bar {
-    width: 90%;
+    width: 100%;
     height: 70px;
-    position: fixed;
+   /* position: fixed;*/
+   position: relative;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-radius: 5px;
     padding-left: 80px;
-    z-index: 999;
-    background-color: white !important;
+   /* z-index: 999;*/
+    background-color: #010000 ;
     transition: background-color 0.3s ease, box-shadow 0.3s ease;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
       }
@@ -52,7 +83,7 @@
 /* Ajoutez ces styles dans votre fichier CSS ou dans la balise style de votre composant React */
 .nav-bar ul {
     list-style-type: none; /* Supprime les puces */
-    margin-right: -200px;
+
   }
 
   .nav-bar ul  a {
@@ -83,7 +114,7 @@
 }
 
 .nav-bar p , li {
-  color: #0d3c63;
+  color: white;
   display: flex;
   align-items: center;
   column-gap: 5px;
@@ -95,7 +126,7 @@ li:hover {
 }
 
 
-.button{
+/*.button{
   position:relative;
   background-color: #d2d2d2;
   width: 80px;
@@ -116,13 +147,13 @@ li:hover {
 }
 
 input:checked + .button{
-  background-color: #0d3c63;
+  background-color: #21289d;
 }
 
 input:checked + .button::before{
 transform: translateX(40px);
 }
-
+*/
 input {
   display: none;
 }
@@ -130,8 +161,9 @@ input {
 @media (max-width : 1025px){
   .container-navbar1{
     display: flex;
-    justify-content: flex-start;
+    justify-content:space-between;
   
+
 
   }
   .container-navbar2{
@@ -153,7 +185,7 @@ input {
     align-items:flex-start;
     border-radius: 5px;
     padding-left: 0px;
-    background-color: white !important;
+    background-color: transparent !important;
     transition: background-color 0.3s ease, box-shadow 0.3s ease;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
       }
@@ -167,7 +199,7 @@ input {
     
     .logo {
       margin-left: 30px;
-      border-bottom: 1.5px solid #6495ED;
+      border-bottom: 1.5px solid #1672bd;
 
     }
       /* Ajoutez ces styles dans votre fichier CSS ou dans la balise style de votre composant React */
