@@ -30,7 +30,7 @@ const Header =() =>{
       <div  className='container-navbar1'>
         <FontAwesomeIcon icon="bars" size="2x" className='navbar-icon'  onClick={toggleNav} />
         <div className='navbar-icon-contact-container'>
-          <a href="https://www.linkedin.com/in/dalel-ammar-b0544a234/" ><FontAwesomeIcon icon={faLinkedin} color='#21289d' size="2x" className='navbar-icon-contact' /></a>  
+          <a href="https://www.linkedin.com/in/dalel-ammar-b0544a234/" target="_blank" rel="noopener noreferrer" ><FontAwesomeIcon icon={faLinkedin} color='#21289d' size="2x" className='navbar-icon-contact' /></a>  
           <a href="https://github.com/AmmarDalel"><FontAwesomeIcon icon={faSquareGithub} size="2x" className='navbar-icon-contact'  />  </a>
           <a href="https://www.facebook.com/dalel.ammar.961"><FontAwesomeIcon icon={faSquareFacebook}  size="2x" className='navbar-icon-contact' /></a>
           <a href="https://www.instagram.com/dalel.ammar/"><FontAwesomeIcon icon={faSquareInstagram} size="2x" className='navbar-icon-contact' /></a>
