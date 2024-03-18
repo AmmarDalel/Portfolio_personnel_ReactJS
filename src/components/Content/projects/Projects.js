@@ -22,7 +22,7 @@ function Projects() {
 
             <div className="card">
                 <div className="container-img">
-                    <img alt="login"  src={isimmproject1} id="slide-1"/>
+                    <img alt="login"  src={isimmproject1} id="slide-1"  />
                     <img alt="done on time"  src={isimmproject2}id="slide-2"/>
                     <img alt="tasks"  src={isimmproject3} id="slide-3"/>
                     <img alt="projects"  src={isimmproject4} id="slide-4"/>

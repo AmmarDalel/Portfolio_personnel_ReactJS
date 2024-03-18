@@ -50,10 +50,10 @@ const Header =({changerDarkmode}) =>{
               <FontAwesomeIcon icon="times" size="2x" className='navbar-icon icoclose' onClick={toggleNav}  />
             </div>
             <ul>
-              <a href="#"><li> <img className='icon' src={icohome}/>Home</li></a>
-              <a href="#skills"><li><img className='icon' src={icoskills}/>Skills</li></a> {/* Assurez-vous de respecter la casse pour la cohérence */}
-              <a href="#projects"><li><img className='icon' src={icoprojects}/>Projects</li></a>
-              <a href="#contact"><li><img className='icon' src={icocontact}/>Contact</li></a>
+              <a href="#"><li> <img className='icon' src={icohome} alt='home'/>Home</li></a>
+              <a href="#skills"><li><img className='icon' src={icoskills}  alt='skills'/>Skills</li></a> {/* Assurez-vous de respecter la casse pour la cohérence */}
+              <a href="#projects"><li><img className='icon' src={icoprojects}  alt='projects' />Projects</li></a>
+              <a href="#contact"><li><img className='icon' src={icocontact}  alt='contact' />Contact</li></a>
             </ul>
 
 

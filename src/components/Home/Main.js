@@ -74,7 +74,7 @@ function Main() {
          
           </div>
 
-          <img  className='photoprofil' src={dalel} alt='' />
+          <img  className='photoprofil' src={dalel} alt='dalelimage' />
 
         </div>
       </div>
