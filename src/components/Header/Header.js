@@ -1,4 +1,4 @@
-import React ,  { useState , forwardRef, useImperativeHandle , useEffect }  from 'react';
+import React ,  { useState }  from 'react';
 
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { faBars , faTimes  } from '@fortawesome/free-solid-svg-icons';
@@ -6,7 +6,6 @@ import { faLinkedin  , faSquareFacebook , faSquareGithub , faSquareInstagram } f
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 import './Header.css';
-import logo from '../../asserts/images/logo_portfolio.png'
 import icohome  from '../../asserts/images/home (1).png'
 import icoskills from '../../asserts/images/skills.png'
 import icoprojects from '../../asserts/images/start-up.png'
@@ -14,21 +13,16 @@ import icocontact from '../../asserts/images/contact-us.png'
 
 library.add(faBars , faTimes  );
 
-const Header =({changerDarkmode}) =>{
+const Header =() =>{
   const [showNav, setShowNav] = useState(false);
 
 
-  const [darkmode, setDarkmode] = useState(true);
 
   const toggleNav = () => {
     setShowNav(!showNav);
   };
 
-  const toggledarkmode = () => {
-    setDarkmode(!darkmode);
-    changerDarkmode(darkmode) ;
-
-  };
+ 
 
 
   return (
