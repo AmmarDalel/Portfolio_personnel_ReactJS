@@ -1,6 +1,6 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faLaptop, faMobile } from '@fortawesome/free-solid-svg-icons'; // Importez les icônes dont vous avez besoin
+import { faLaptop, faMobile } from '@fortawesome/free-solid-svg-icons'; 
 import './Services.css';
 
 function Services() {
@@ -11,7 +11,7 @@ function Services() {
         <div className="content">
           <div className="card">
             <div className="icon">
-              <FontAwesomeIcon icon={faLaptop} /> {/* Utilisez le composant FontAwesomeIcon avec l'icône appropriée */}
+              <FontAwesomeIcon icon={faLaptop} /> 
             </div>
             <div className="info">
               <h3>problem solving</h3>
@@ -21,7 +21,7 @@ function Services() {
 
           <div className="card">
             <div className="icon">
-              <FontAwesomeIcon icon={faMobile} /> {/* Utilisez le composant FontAwesomeIcon avec l'icône appropriée */}
+              <FontAwesomeIcon icon={faMobile} />
             </div>
             <div className="info">
               <h3>developpement</h3>
@@ -31,7 +31,7 @@ function Services() {
 
           <div className="card">
             <div className="icon">
-              <FontAwesomeIcon icon={faLaptop} /> {/* Utilisez le composant FontAwesomeIcon avec l'icône appropriée */}
+              <FontAwesomeIcon icon={faLaptop} /> 
             </div>
             <div className="info">
               <h3>developpement</h3>

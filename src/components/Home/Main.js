@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { useNavigate } from 'react-router-dom';
 
 import vd2 from '../../asserts/images/vd3.mp4';
@@ -17,7 +17,6 @@ import githubicon from '../../asserts/images/Github.gif';
 
 
 function Main() {
- {/*-- const [darkmode, setDarkmode] = useState(false);--*/}
 
  const navigate = useNavigate();
 
@@ -28,30 +27,14 @@ function Main() {
 
   return (
     <div style={{backgroundColor:'#010000'}}>
-      {/*--{console.log(darkmode)}--*/}
 
-      <Header  />  {/*      <Header changerDarkmode={setDarkmode} />*/} 
+      <Header  />  
 
      <div className="video-background">
             <video autoPlay loop muted>
               <source src={ process.env.PUBLIC_URL + vd2 } type="video/mp4" />
             </video>
-           {/*--    {darkmode && (
-            <video autoPlay loop muted>
-              <source src={ process.env.PUBLIC_URL + vd2 } type="video/mp4" />
-            </video>
-          )
-        
-          }
-           {!darkmode && (
-            <video autoPlay loop muted>
-              <source src={ process.env.PUBLIC_URL + vd1 } type="video/mp4" />
-            </video>
-          )
-        
-          }
-
-        --*/}
+       
         <div className='presentation1'>
 
           <div className='hello'>
