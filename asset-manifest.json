@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/static/css/main.afa23949.css",
+    "main.js": "/static/js/main.2b7b8981.js",
+    "static/js/592.2005bba1.chunk.js": "/static/js/592.2005bba1.chunk.js",
+    "static/media/Instagram logo.gif": "/static/media/Instagram logo.95c4b812b7970ad42f90.gif",
+    "static/media/login.png": "/static/media/login.ddaf39467b32b677fe2f.png",
+    "static/media/vd3.mp4": "/static/media/vd3.b94823bdc644bce0d1c5.mp4",
+    "static/media/isimmproject5.png": "/static/media/isimmproject5.cb469b0447dd04acffe1.png",
+    "static/media/Facebook.gif": "/static/media/Facebook.87196b756c9422ce7ee1.gif",
+    "static/media/isimmproject1.png": "/static/media/isimmproject1.68b259afa23374c2d265.png",
+    "static/media/isimmproject3.png": "/static/media/isimmproject3.7518e0f10f05daef2122.png",
+    "static/media/isimmproject4.png": "/static/media/isimmproject4.8aea4c35ed3f8ff4261b.png",
+    "static/media/isimmproject2.png": "/static/media/isimmproject2.f0d017c503114625468f.png",
+    "static/media/LinkedIn.gif": "/static/media/LinkedIn.1e929e13a1c59ee81825.gif",
+    "static/media/Github.gif": "/static/media/Github.c529be4bfee632c5e824.gif",
+    "static/media/dalel.png": "/static/media/dalel.b619bf1a18d03c8ba4f1.png",
+    "static/media/cv.pdf": "/static/media/cv.5228ca251533ea73a757.pdf",
+    "static/media/tasks.png": "/static/media/tasks.bb6da5e34a8d60e2b976.png",
+    "static/media/ATM machine.png": "/static/media/ATM machine.40840d75e5379cde5eb4.png",
+    "static/media/projects.png": "/static/media/projects.7794c8f35c9700d6806f.png",
+    "static/media/done_on_time.png": "/static/media/done_on_time.5fb51fb076f0cfbd68e3.png",
+    "static/media/gestion d'une école.png": "/static/media/gestion d'une école.79ca5b5ded4a89a4d032.png",
+    "static/media/gestion restaurant.png": "/static/media/gestion restaurant.08d49718623b7bae6204.png",
+    "static/media/gestion d'une cuisine.png": "/static/media/gestion d'une cuisine.7bd9e614e07558dd5854.png",
+    "index.html": "/index.html",
+    "main.afa23949.css.map": "/static/css/main.afa23949.css.map",
+    "main.2b7b8981.js.map": "/static/js/main.2b7b8981.js.map",
+    "592.2005bba1.chunk.js.map": "/static/js/592.2005bba1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.afa23949.css",
+    "static/js/main.2b7b8981.js"
+  ]
+}
