@@ -1,12 +1,11 @@
 .container-navbar1{
   display: none;
- /* position:fixed;*/
- position: relative;
+  position:fixed;
   justify-content: space-around;
-  /*z-index: 998;*/
+  z-index: 998;
   width: 100%;
   padding-left: 1rem;
-  background-color: transparent !important;
+  background-color: white !important;
   transition: background-color 0.3s ease, box-shadow 0.3s ease;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);  
  
@@ -24,14 +23,13 @@
 }
 .navbar-icon , .navbar-icon-contact{
   display: none;
- color: #0d3c63;
+ color: #21289d;
 }
 .navbar-icon-contact{
-
   width: 22px;
 }
 .navbar-icon-contact:hover{
-  color:#1672bd
+  color:#6495ED
 
 
 }
@@ -42,27 +40,20 @@
   justify-content: center;
   margin-top: auto;
   margin-bottom: auto;
+
 }
 .navbar-icon:hover{
   color: #1672bd;
 }
-h2{
-  color: #21289d;
-}
-h2 span {
-  color: white;
-}
 .nav-bar {
     width: 100%;
     height: 70px;
-   /* position: fixed;*/
-   position: relative;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border-radius: 5px;
     padding-left: 80px;
-   /* z-index: 999;*/
-    background-color: #010000 ;
+    background-color: #010001 !important;
     transition: background-color 0.3s ease, box-shadow 0.3s ease;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
       }
@@ -73,23 +64,32 @@ h2 span {
   column-gap: 10%;
   
  }
-.container-logo-navbar .logo{
-  width: 15rem;
-}
-.container-logo-navbar .icoclose{
-  display: none;
-}
+
+
+  .container-logo-navbar .logo{
+    width: 15rem;
+  }
+  .container-logo-navbar .icoclose{
+    display: none;
+  }
+
+  h2{
+    color: #21289d;
+  }
+  h2 span {
+    color: white;
+  }
 
 /* Ajoutez ces styles dans votre fichier CSS ou dans la balise style de votre composant React */
 .nav-bar ul {
     list-style-type: none; /* Supprime les puces */
-
   }
 
   .nav-bar ul  a {
     text-decoration: none;
     width: 100%;
     height: 40px;
+
   }
   
   /* Styles supplémentaires pour les liens (facultatif) */
@@ -126,38 +126,6 @@ li:hover {
 }
 
 
-/*.button{
-  position:relative;
-  background-color: #d2d2d2;
-  width: 80px;
-  height: 40px;
-  border-radius: 200px;
-  margin-right: 10px;
-  transition: 0.2s;
-}
-
-.button::before{
-  position: absolute;
-  content: '';
-  background-color: #fff;
-  width: 30px;
-  height: 30px;
-  border-radius: 200px;
-  margin: 5px;
-}
-
-input:checked + .button{
-  background-color: #21289d;
-}
-
-input:checked + .button::before{
-transform: translateX(40px);
-}
-*/
-input {
-  display: none;
-}
-
 @media (max-width : 1025px){
   .container-navbar1{
     display: flex;
@@ -175,6 +143,7 @@ input {
    
   }
   .nav-bar {
+    z-index: 999;
     width: 20.5rem;
     height:60% ;
     position: fixed;
@@ -185,7 +154,7 @@ input {
     align-items:flex-start;
     border-radius: 5px;
     padding-left: 0px;
-    background-color: transparent !important;
+    background-color: white !important;
     transition: background-color 0.3s ease, box-shadow 0.3s ease;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
       }
@@ -195,11 +164,15 @@ input {
     }
       .container-logo-navbar .icoclose{
         display: flex;
+        margin-left: 10px;
       }
     
+      .container-logo-navbar h2{
+        display: none;
+      }
     .logo {
       margin-left: 30px;
-      border-bottom: 1.5px solid #1672bd;
+      border-bottom: 1.5px solid #6495ED;
 
     }
       /* Ajoutez ces styles dans votre fichier CSS ou dans la balise style de votre composant React */
@@ -217,7 +190,7 @@ input {
       display:flex; /* Aligne les éléments horizontalement */
       align-items: center;
       margin-right: 0px; /* Ajoute une marge entre les éléments (ajustez selon vos besoins) */
-     
+     color: #21289d;
   
       }
 

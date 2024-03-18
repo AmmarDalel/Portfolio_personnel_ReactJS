@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import vd1 from '../../asserts/images/vd2.mp4';
+import { useNavigate } from 'react-router-dom';
+
 import vd2 from '../../asserts/images/vd3.mp4';
 
 import './Main.css';
@@ -16,11 +17,17 @@ import githubicon from '../../asserts/images/Github.gif';
 
 
 function Main() {
-  const [darkmode, setDarkmode] = useState(false);
+ {/*-- const [darkmode, setDarkmode] = useState(false);--*/}
+
+ const navigate = useNavigate();
+
+ const handleClickCV = () => {
+   navigate('/cv');
+ };
 
 
   return (
-    <>
+    <div style={{backgroundColor:'#010000'}}>
       {/*--{console.log(darkmode)}--*/}
 
       <Header  />  {/*      <Header changerDarkmode={setDarkmode} />*/} 
@@ -52,19 +59,18 @@ function Main() {
 
             <p className='position dynamic-txt'>I am <span className='engenniringstudent'>Software Engineering Student</span></p> 
 
-            <h4>I am a 1st year software engineering student , <br />I have a strong passion for the dynamic world of computer science.
-              Having completed two years of integrated preparatory studies at the Higher Institute of Computer Science and Mathematic of Monastir (ISIMM),
-              I eagerly embarked on my first year in software engineering. Currently immersed in this exciting field, I am dedicated to acquiring new skills
-              and solving complex challenges. My academic journey forms the foundation upon which I am building my professional path, always striving for excellence
-              and meaningful contributions to the rapidly evolving realm of computer science.</h4>
-              <button class="button">Download cv</button>
+            <h4>
+              I am a first-year software engineering student with a strong passion for web development. Before starting my software engineering studies,
+              I completed two years of integrated preparatory studies at the Higher Institute of Computer Science and Mathematics of Monastir (ISIMM). 
+              I am dedicated to acquiring new skills and solving complex challenges in the field.
+            </h4>
+              <button class="button" onClick={handleClickCV}>Download cv</button>
               <div className='contacticonmaincontainer'>
-              <a href="https://www.linkedin.com/in/dalel-ammar-b0544a234/" ><img className='iconcontactmain linkedin' src={linkedinicon} /></a>
-              <a href="https://www.instagram.com/dalel.ammar/"> <img className='iconcontactmain insta' src={instagramicon} /> </a>
-               <a href="https://www.facebook.com/dalel.ammar.961">  <img className='iconcontactmain fb' src={facebookicon} /> </a>
+                <a href="https://www.linkedin.com/in/dalel-ammar-b0544a234/" ><img className='iconcontactmain linkedin' src={linkedinicon} /></a>
+                <a href="https://www.instagram.com/dalel.ammar/"> <img className='iconcontactmain insta' src={instagramicon} /> </a>
+                <a href="https://www.facebook.com/dalel.ammar.961">  <img className='iconcontactmain fb' src={facebookicon} /> </a>
                 <a href="https://github.com/AmmarDalel">   <img className='iconcontactmain github' src={githubicon} /> </a>
-
-                </div>
+              </div>
          
           </div>
 
@@ -88,7 +94,7 @@ function Main() {
       <div className='containerFooter' >
         <Footer />
       </div>
-    </>
+    </div>
   );
 }
 

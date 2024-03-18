@@ -1,5 +1,10 @@
 import React from 'react'
 import './Projects.css'
+import isimmproject1 from '../../../asserts/images/isimmproject1.png';
+import isimmproject2 from '../../../asserts/images/isimmproject2.png';
+import isimmproject3 from '../../../asserts/images/isimmproject3.png';
+import isimmproject4 from '../../../asserts/images/isimmproject4.png';
+import isimmproject5 from '../../../asserts/images/isimmproject5.png';
 import login from '../../../asserts/images/login.png'
 import doneontime from '../../../asserts/images/done_on_time.png'
 import tasks from '../../../asserts/images/tasks.png'
@@ -15,6 +20,24 @@ function Projects() {
         <h1>Projects</h1>
         <div className="content">
 
+            <div className="card">
+                <div className="container-img">
+                    <img alt="login"  src={isimmproject1} id="slide-1"/>
+                    <img alt="done on time"  src={isimmproject2}id="slide-2"/>
+                    <img alt="tasks"  src={isimmproject3} id="slide-3"/>
+                    <img alt="projects"  src={isimmproject4} id="slide-4"/>
+                    <img alt="projects"  src={isimmproject5} id="slide-4"/>
+
+                </div>
+               
+                <div className="info">
+                    <p>web application with React js</p>
+                    <strong className="project-title">
+                        <span >ISIMM website</span>
+                         <a href="#" className="more-details">more details</a>   
+                    </strong>
+                </div>
+            </div>
             <div className="card">
                 <div className="container-img">
                     <img alt="login"  src={login} id="slide-1"/>

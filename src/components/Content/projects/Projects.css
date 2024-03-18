@@ -8,7 +8,8 @@
 }
 .card{
   border-radius: 10px;
-   background-color: #fff;
+  border: #2d35cb solid 2px ;
+   background-color: transparent;
    width: 21.20em;
    box-shadow: 0 5px 25px rgba(1, 1, 1, 15%); 
    padding: 25px;
@@ -16,7 +17,6 @@
    transition : 0.7s ease ; /* pour un effet avec ralentie du hover */
 }
 .card:hover{
-    background-color:  rgba(1, 1, 1, 0.2%);
     transform: scale(1.1);
     
 }
@@ -36,6 +36,7 @@
   }*/
   .projects .card{
     min-height: 14em;
+    
   
   }
   .projects .container-img{
@@ -98,7 +99,7 @@
   
   .projects .info p{
     font-size: 0.7em;
-    color: #21289d;
+    color: white;
   }
   
   .projects .info  a{
